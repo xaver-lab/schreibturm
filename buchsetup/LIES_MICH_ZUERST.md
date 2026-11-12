@@ -6,7 +6,7 @@ Ein Ordner, in dem Codex (die KI in der ChatGPT-Desktop-App) mit dir an deinem R
 
 1. **ChatGPT-Desktop-App mit Codex** (Windows). Codex ist ein Tarif-Feature; Plus oder höher, Free reicht nach den letzten Angaben von OpenAI nicht. Wenn du Codex in der App siehst und einen Ordner öffnen kannst, passt es.
 2. **Python 3** (kostenlos, Microsoft Store oder python.org). Prüfen: PowerShell öffnen, `python --version` eingeben. Zeigt es eine Versionsnummer, ist alles gut. Die Skripte rechnen und suchen; ohne sie läuft das Setup nur halb.
-3. **Git** ist nützlich (Verlauf deiner Texte), aber nicht nötig. Wenn Codex danach fragt, darf es installiert werden.
+3. **Git** (empfohlen, kostenlos): Es merkt sich den Verlauf deiner Texte, du kannst jederzeit zu einem früheren Stand zurück. Download: https://git-scm.com/download/win. Bei der Installation einfach immer auf „Next“ klicken und alles so lassen, wie es vorgeschlagen ist. Danach die App einmal neu starten. Beim Einrichten richtet Codex Git in deinem Buch-Ordner ein; ohne Git läuft alles trotzdem, nur ohne Verlauf.
 
 ## Einrichten (einmal, etwa 15 Minuten)
 

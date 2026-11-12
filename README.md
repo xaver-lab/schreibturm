@@ -17,7 +17,7 @@ Ein Setup für Codex (ChatGPT-Desktop-App), das mit dir Welten baut, Figuren pfl
 
 ## 🕯️ In drei Schritten
 
-1. **Python 3 installieren** (Microsoft Store, „Python 3“). Das ist alles, was du vorab brauchst.
+1. **Python 3 installieren** (Microsoft Store, „Python 3“). Das brauchst du vorab. Empfohlen dazu **[Git](https://git-scm.com/download/win)** für den Verlauf deiner Texte: bei der Installation immer „Next“ klicken, Standard lassen, danach die App neu starten.
 2. **Einen neuen Ordner für dein Buch anlegen** und ihn in der Codex-App als Projekt öffnen.
 3. **Den Startprompt schicken** (unten). Codex lädt den Schreibturm selbst herunter und richtet alles mit dir ein.
 
