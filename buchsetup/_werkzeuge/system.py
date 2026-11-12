@@ -230,7 +230,7 @@ def version(holen=False):
         return
     try:
         req = urllib.request.Request(f"https://api.github.com/repos/{quelle}/releases/latest",
-                                     headers={"User-Agent": "buchsetup", "Accept": "application/vnd.github+json"})
+                                     headers={"User-Agent": "schreibturm", "Accept": "application/vnd.github+json"})
         with urllib.request.urlopen(req, timeout=20) as r:
             rel = json.load(r)
     except Exception as e:
@@ -253,7 +253,7 @@ def version(holen=False):
     ziel = WURZEL.parent / "Buch-Setup-neu"
     ziel.mkdir(exist_ok=True)
     zip_pfad = ziel / asset["name"]
-    req = urllib.request.Request(asset["browser_download_url"], headers={"User-Agent": "buchsetup"})
+    req = urllib.request.Request(asset["browser_download_url"], headers={"User-Agent": "schreibturm"})
     with urllib.request.urlopen(req, timeout=120) as r, open(zip_pfad, "wb") as f:
         shutil.copyfileobj(r, f)
     with zipfile.ZipFile(zip_pfad) as z:
@@ -336,7 +336,7 @@ def codex():
             and p.name != "system.py"]
     if rest:
         print("Achtung, noch .claude in:", ", ".join(rest))
-    zip_pfad = WURZEL / "_system" / f"buchsetup-codex-{version}.zip"
+    zip_pfad = WURZEL / "_system" / f"schreibturm-codex-{version}.zip"
     with zipfile.ZipFile(zip_pfad, "w", zipfile.ZIP_DEFLATED) as z:
         for p in sorted(paket.rglob("*")):
             if p.is_file():

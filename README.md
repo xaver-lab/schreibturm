@@ -1,10 +1,10 @@
-# Buch-Setup für Codex
+# Schreibturm für Codex
 
 Ein Setup, mit dem Codex (ChatGPT-Desktop-App) bei einem Roman mitarbeitet: Welt und Figuren aufbauen, Kapitel schreiben, prüfen, den Überblick über viele Sitzungen halten.
 
 ## Herunterladen
 
-Auf der Seite **Releases** (rechts auf dieser Seite) die neueste Version öffnen und die Datei `buchsetup-codex-<Version>.zip` herunterladen. Du brauchst dafür kein GitHub-Konto. Im ZIP liegt der Ordner `Buch-Setup`; entpacken, an einen festen Platz legen, in Codex öffnen und die `LIES_MICH_ZUERST.md` lesen.
+Auf der Seite **Releases** (rechts auf dieser Seite) die neueste Version öffnen und die Datei `schreibturm-codex-<Version>.zip` herunterladen. Du brauchst dafür kein GitHub-Konto. Im ZIP liegt der Ordner `Buch-Setup`; entpacken, an einen festen Platz legen, in Codex öffnen und die `LIES_MICH_ZUERST.md` lesen.
 
 ## Versionen
 
