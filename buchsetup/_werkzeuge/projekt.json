@@ -1,0 +1,28 @@
+{
+  "titel": "Titel des Buchs",
+  "autor": "Name",
+  "epub": {
+    "datei": "Titel - Band 01",
+    "calibre": "C:\\Program Files\\Calibre2\\ebook-convert.exe"
+  },
+  "obsidian": {
+    "aliase": {},
+    "nur_genitiv": [],
+    "story_extra": {},
+    "kurznamen": {}
+  },
+  "pruefen": {
+    "keine_varianten": []
+  },
+  "system": {
+    "im_kern_erlaubt": [],
+    "quelle": "xaver-lab/buchsetup"
+  },
+  "nutzer": {
+    "erfahrung": "",
+    "bekannt": []
+  },
+  "paket": {
+    "immer": []
+  }
+}

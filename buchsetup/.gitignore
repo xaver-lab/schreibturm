@@ -1,0 +1,7 @@
+_werkzeuge/ausgabe/
+__pycache__/
+_obsidian/
+
+# Codex-Fassung: wird gebaut, ist ein eigenes Repo
+_system/release/
+_system/*.zip
